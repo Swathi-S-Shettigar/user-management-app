@@ -1,0 +1,36 @@
+/* Pagination container */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+  }
+  
+  /* Page buttons */
+  .page-btn {
+    background: #90caf9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .page-btn:hover {
+    background: #64b5f6;
+  }
+  
+  .page-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Page number display */
+  .page-number {
+    font-size: 16px;
+    color: #444;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,110 @@
+/* Container styling */
+.edit-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #f9f9f9;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+  margin-left: 500px;
+  width: 500px;
+}
+
+.edit-container:hover {
+  transform: translateY(-5px);
+}
+
+/* Title styling */
+.edit-title {
+  text-align: center;
+  color: #444;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Form group layout */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Form label styling */
+.form-group label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Input fields */
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+.form-group input:focus {
+  border: 1px solid #64b5f6;
+  outline: none;
+}
+
+/* Button group */
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Update button */
+.update-btn {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.update-btn:hover {
+  background: #45a049;
+}
+
+/* Cancel button */
+.cancel-btn {
+  background: #e57373;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.cancel-btn:hover {
+  background: #d32f2f;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .edit-container {
+    width: 90%;
+    padding: 30px;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .update-btn, .cancel-btn {
+    width: 100%;
+  }
+}

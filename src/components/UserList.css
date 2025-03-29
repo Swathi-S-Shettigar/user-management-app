@@ -1,0 +1,26 @@
+/* User list container with gradient background */
+.userlist-container {
+    padding: 40px;
+    background: linear-gradient(135deg, #f7f7f7, #e3f2fd);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 200px;
+    width: 200%;
+  }
+  
+  /* Title styling */
+  .title {
+    text-align: center;
+    color: #444;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  /* Grid layout for user cards */
+  .user-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
