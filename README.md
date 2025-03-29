@@ -27,6 +27,32 @@ This is a simple React CRUD application for managing users, including **Create, 
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-url>
-cd <project-folder>
+git clone https://github.com/Swathi-S-Shettigar/user-management-app
+cd employwise
+
+2. **Install Dependencies**
+npm install
+
+3. **Run the development server**
+npm run dev
+
+4. **Access the app**
+http://localhost:5173/
+
+## 🔥 **API Endpoints Used**
+- https://reqres.in/api/login → To authenticate the user.
+- https://reqres.in/api/users → For CRUD operations.
+
+## 🛠️ **Usage**
+
+1. **Login with Test Credentials**
+   - Email: eve.holt@reqres.in
+   - Password: cityslicka
+
+2. **User Operations**
+   - Add, Edit, and Delete users with real-time updates.
+   - Confirmation alerts before deletion.
+   - Persistent login session with local storage.
+
+
 
